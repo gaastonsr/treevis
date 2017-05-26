@@ -8,7 +8,9 @@
   },
   "author": "Gaston Sanchez",
   "license": "MIT",
-  "bin": "./index.js",
+  "bin": {
+    "treevis": "./index.js"
+  },
   "dependencies": {
     "minimist": "^1.2.0"
   }
