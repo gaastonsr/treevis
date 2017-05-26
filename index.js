@@ -6,7 +6,8 @@ const { treeFromArray, treeToASCII } = require('./tree');
 const argv = minimist(process.argv.slice(2));
 
 if (argv._.length !== 1) {
-  console.log('Usage: treevis <array>')
+  console.log('Usage: treevis <array>');
+  process.exit(1);
 }
 
 const array = JSON.parse(argv._[0]);
