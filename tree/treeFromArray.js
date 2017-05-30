@@ -14,7 +14,7 @@ function treeFromArray(array) {
     if (nextItem < array.length) {
       const item = array[nextItem++];
 
-      if (item) {
+      if (item !== null) {
         const node = new TreeNode(item);
         current.left = node;
         queue.push(node);
@@ -24,7 +24,7 @@ function treeFromArray(array) {
     if (nextItem < array.length) {
       const item = array[nextItem++];
 
-      if (item) {
+      if (item !== null) {
         const node = new TreeNode(item);
         current.right = node;
         queue.push(node);
