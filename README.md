@@ -36,3 +36,7 @@ will produce
 ## Disclaimer
 
 Long trees don't always display correctly.
+
+## Environments
+- Bash: OK
+- Zsh: Not OK (Run `exec bash` to switch from Zsh to Bash if you are using Mac terminal).
