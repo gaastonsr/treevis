@@ -29,7 +29,7 @@ $ npx treevis <tree in array form>
 Make sure to wrap your tree in single quotes otherwise your shell might try to interpret the square brackets.
 
 ```
-$ npx treevis '[5,4,7,3,null,2,null,-1,null,9]'
+$ treevis '[5,4,7,3,null,2,null,-1,null,9]'
        5
       / \
      /   \
